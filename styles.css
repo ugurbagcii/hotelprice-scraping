@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    background: #1e272e;
+    font-family: 'Jost', sans-serif;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    color: silver;
+    width: 80%;
+    margin-top: 10px;
+}
+
+table {
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+table tr th {
+    background: silver;
+    height: 50px;
+}
+
+table tr:nth-child(odd) td {
+    background: silver;
+    height: 40px;
+}
+table tr:nth-child(even) td {
+    background: #d2dae2;
+    height: 40px;
+}

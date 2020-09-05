@@ -1,0 +1,130 @@
+
+    <!DOCTYPE html>
+    <html lang="tr-TR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+        <title>HOTEL PRICES</title>
+    </head>
+    <body>
+
+        <h1>HOTELS.COM</h1>
+        <table id="table">
+            <tr>
+                <th>OTEL ADI</th>
+                <th>30/08</th>
+                <th>31/08</th>
+                <th>01/09</th>
+                <th>02/09</th>
+                <th>03/09</th>
+                <th>04/09</th>
+                <th>05/09</th>
+                <th>06/09</th>
+                <th>07/09</th>
+                <th>08/09</th>
+                <th>09/09</th>
+                <th>10/09</th>
+                <th>11/09</th>
+                <th>12/09</th>
+            </tr>
+            <tr>
+                <td>Holiday Inn Antalya - Lara</td>
+                <td>445 TL</td>
+                <td>445 TL</td>
+                <td>628 TL</td>
+                <td>445 TL</td>
+                <td>494 TL</td>
+                <td>602 TL</td>
+                <td>602 TL</td>
+                <td>445 TL</td>
+                <td>445 TL</td>
+                <td>445 TL</td>
+                <td>445 TL</td>
+                <td>486 TL</td>
+                <td>445 TL</td>
+                <td>445 TL</td>
+            </tr>
+            <tr>
+                <td>DoubleTree By Hilton Antalya City Centre</td>
+                <td>485 TL</td>
+                <td>573 TL</td>
+                <td>***</td>
+                <td>599 TL</td>
+                <td>599 TL</td>
+                <td>599 TL</td>
+                <td>599 TL</td>
+                <td>538 TL</td>
+                <td>538 TL</td>
+                <td>538 TL</td>
+                <td>538 TL</td>
+                <td>538 TL</td>
+                <td>538 TL</td>
+                <td>538 TL</td>
+            </tr>
+            <tr>
+                <td>Crowne Plaza Hotel Antalya</td>
+                <td>777 TL</td>
+                <td>777 TL</td>
+                <td>777 TL</td>
+                <td>747 TL</td>
+                <td>747 TL</td>
+                <td>747 TL</td>
+                <td>747 TL</td>
+                <td>661 TL</td>
+                <td>661 TL</td>
+                <td>661 TL</td>
+                <td>661 TL</td>
+                <td>661 TL</td>
+                <td>661 TL</td>
+                <td>590 TL</td>
+            </tr>
+            <tr>
+                <td>Club Hotel Sera - All Inclusive</td>
+                <td>1,445 TL</td>
+                <td>1,445 TL</td>
+                <td>1,295 TL</td>
+                <td>1,295 TL</td>
+                <td>1,295 TL</td>
+                <td>1,295 TL</td>
+                <td>1,295 TL</td>
+                <td>1,295 TL</td>
+                <td>1,295 TL</td>
+                <td>1,295 TL</td>
+                <td>1,295 TL</td>
+                <td>1,295 TL</td>
+                <td>1,295 TL</td>
+                <td>1,295 TL</td>
+            </tr>
+            <tr>
+                <td>Rixos Downtown Antalya</td>
+                <td>1,414 TL</td>
+                <td>1,414 TL</td>
+                <td>1,414 TL</td>
+                <td>1,414 TL</td>
+                <td>1,414 TL</td>
+                <td>1,414 TL</td>
+                <td>1,414 TL</td>
+                <td>1,414 TL</td>
+                <td>1,414 TL</td>
+                <td>1,414 TL</td>
+                <td>1,414 TL</td>
+                <td>1,414 TL</td>
+                <td>1,414 TL</td>
+                <td>1,414 TL</td>
+            </tr>
+        </table>
+
+        <script>
+            const cells = document.getElementById("table").getElementsByTagName("td");
+            for (let i = 0; i < cells.length; i++) {
+                if (cells[i].innerHTML == "***") {
+                    cells[i].style.backgroundColor = "#ff3f34";
+                }
+            }
+        </script>
+
+    </body>
+    </html>
+    
