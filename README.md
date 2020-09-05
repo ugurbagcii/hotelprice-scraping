@@ -1,4 +1,4 @@
-# hotelprice-scraping
+# hotel-price-scraping
 
 // Program is Scraping room prices for between some dates or for each day separate following two weeks from Hotels.com and shows it in an HTML Table.
 
